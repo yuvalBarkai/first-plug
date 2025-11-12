@@ -20,7 +20,7 @@ git checkout <tag-name>
 בעזרת מספר הגירסה (מספיקות ארבע ספרות ראשונות)
 git checkout <commit-id>		
 מעבר לגירסה האחרונה בענף:
-git checkout master
+git checkout main
 
 העלאה ל- github:
 יש לפתוח חשבון ב- github. 
@@ -32,5 +32,5 @@ TheApp הוא שם שאנחנו ממציאים לצורך ההעלאה.
 
 העלאת הפרויקט:
 git push <push-name> <branch-name>
-git push TheApp master
+git push TheApp main
 בפעם הראשונה שמבצעים העלאה ממחשב מסוים תידרשו להכניס את שם המשתמש והסיסמה שלכם ב- github. הפרטים האלה נשמרים על המחשב, ובפעמים הבאות אין צורך בזיהוי.
