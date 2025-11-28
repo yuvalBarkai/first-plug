@@ -1,19 +1,25 @@
-GIT
 
+GIT
 לצירוף פרויקט ל-git  יש לפתוח את git bash בספריית הפרויקט ולרשום את הפקודה הבאה:
 git init
 בדיקת גירסה:
 git –version
+
+
 הכנסת שם משתמש ודוא"ל:
 git config --global user.name "<username>"
 git config --global user.email "<email>"
+
 שמירת גירסה (כל הקבצים):
 git add .
 git commit –m "<message>"
+
 רשימת גירסאות:
 git log
+
 תיוג גירסה:
 git tag <tagname>
+
 מעבר בין גירסאות:
 בעזרת tag
 git checkout <tag-name>	
